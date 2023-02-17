@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "iri"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [
+    { include = "database" },
+    { include = "reddit_scraper" },
+    { include = "utils" },
+]
+
+[tool.poetry.dependencies]
+python = "^3"
+praw = "^7.6.1"
+pymongo = "^4.3.3"
+ujson = "^5.7.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
