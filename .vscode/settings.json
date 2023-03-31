@@ -1,0 +1,9 @@
+{
+  "conventionalCommits.scopes": [
+    "main",
+    "database",
+    "scraper",
+    "utils",
+    "analysis"
+  ]
+}
