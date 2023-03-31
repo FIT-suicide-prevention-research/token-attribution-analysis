@@ -160,4 +160,5 @@ cython_debug/
 #.idea/
 
 secrets.json
+data/*.json
 William/analysis/Mental-health-related-subreddits.csv
