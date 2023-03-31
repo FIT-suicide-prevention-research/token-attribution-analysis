@@ -5,6 +5,7 @@
     "scraper",
     "utils",
     "analysis",
-    "slurm"
+    "slurm",
+    "model"
   ]
 }
