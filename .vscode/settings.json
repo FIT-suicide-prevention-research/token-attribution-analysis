@@ -4,6 +4,7 @@
     "database",
     "scraper",
     "utils",
-    "analysis"
+    "analysis",
+    "slurm"
   ]
 }
