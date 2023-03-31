@@ -161,3 +161,4 @@ cython_debug/
 
 secrets.json
 data/*.json
+analysis/wordclouds/*.png
