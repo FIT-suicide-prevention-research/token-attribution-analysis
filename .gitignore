@@ -159,6 +159,10 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+# Transformed UMD dataset
+test.parquet.gzip
+train.parquet.gzip
+
 secrets.json
 data/*.json
 analysis/wordclouds/*.png
