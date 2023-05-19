@@ -164,7 +164,7 @@ test.parquet.gzip
 train.parquet.gzip
 
 secrets.json
-data/*.json
+data/*
 analysis/wordclouds/*.png
 database/dump
 William/analysis/Mental-health-related-subreddits.csv
