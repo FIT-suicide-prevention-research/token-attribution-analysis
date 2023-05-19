@@ -1,5 +1,6 @@
 import argparse
 import os
+import pandas as pd
 
 import warnings
 
@@ -200,8 +201,6 @@ if __name__ == "__main__":
     # parse arguments
     parser = args_parser()
     args = parser.parse_args()
-
-    import pandas as pd
 
     # load corpus
     df_corpus = preprocess(
