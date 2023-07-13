@@ -73,10 +73,10 @@ cls_explainer = MultiLabelClassificationExplainer(model, tokenizer)
 # Get word attributions
 word_attributions_dict = defaultdict(lambda: defaultdict(list))
 for text in df.text:
-    # truncate text through tokenizer
-    tokenized_text = tokenizer(text, truncation=True, max_length=450)
-    # convert tokenized text to text
-    text = tokenizer.decode(tokenized_text["input_ids"][1:-1])    
+    # # truncate text through tokenizer
+    # tokenized_text = tokenizer(text, truncation=True, max_length=450)
+    # # convert tokenized text to text
+    # text = tokenizer.decode(tokenized_text["input_ids"][1:-1])    
     word_attributions = cls_explainer(text)
     word_attributions_dict = gather_word_attributions(
         word_attributions, word_attributions_dict
